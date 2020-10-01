@@ -18,16 +18,16 @@ while True:
         if tokens[0] == "+":
             print(add(token1, token2))
         elif tokens[0] == "-":
-            subtract(token1, token2)
+            print(subtract(token1, token2))
         elif tokens[0] == "*":
-            multiply(token1, token2)
+            print(multiply(token1, token2))
         elif tokens[0] == "/":
-            divide(token1, token2)
+            print(divide(token1, token2))
         elif tokens[0] == "square":
-            square(token1)
+            print(square(token1))
         elif tokens[0] == "cube":
-            cube(token1)
+            print(cube(token1))
         elif tokens[0] == "pow":
-            power(token1, token2)
+            print(power(token1, token2))
         elif tokens[0] == "mod":
-            mod(token1, token2)
+            print(mod(token1, token2))
